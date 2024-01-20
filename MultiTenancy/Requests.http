@@ -1,0 +1,23 @@
+@host = http://localhost:5158
+
+
+GET {{host}}/api/products
+tenant:Isco_MutliTenant
+
+###
+
+POST {{host}}/api/products
+tenant: Isco_MutliTenant
+Content-Type: application/json
+
+{
+  "name": "Product 2 - Isco_MutliTenant",
+  "description": "My Isco_MutliTenant product - 1",
+  "rate": 5
+}
+
+###
+
+GET {{host}}/api/products/1
+tenant: LinkedIn_MutliTenant
+###

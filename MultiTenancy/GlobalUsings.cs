@@ -1,0 +1,11 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Options;
+global using MultiTenancy.Configuration;
+global using MultiTenancy.Contracts;
+global using MultiTenancy.Data;
+global using MultiTenancy.DataBaseProvider;
+global using MultiTenancy.Dtos;
+global using MultiTenancy.Models;
+global using MultiTenancy.Services;
+global using MultiTenancy.Settings;
